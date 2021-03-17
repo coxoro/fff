@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(108, 214, 108, 0.637);
+}
+.product{
+    position: relative;
+    width:350px;
+    border-radius: 7px;
+    margin:  auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(167, 160, 160);
+}
+.zeda {
+    
+   top: 10px;
+    right: 5px;
+    color: rgb(179, 171, 171);
+
+}
+.heart{
+    position: relative;
+    top: 2px;
+}
+.fasd {
+    background-color: tomato;
+    color: white;
+    padding: 5px 18px 5px ;
+    right: 5px;
+    display: block;
+    border-radius: 7px;
+    right: 0;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+.product-img { 
+    display: inline-block;
+    width: 300px;
+
+
+}
+.watch{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ 
+.buy{
+    padding: 8px 12px;
+    background-color: green;
+    color: white;
+   box-shadow: 15px 15px 15px 15px;
+   border: none;
+}
+
+.buy-add{
+    background-color: rgba(240, 255, 240, 0.842);
+    color: rgba(146, 132, 132, 0.568);
+    padding: 10px 91px 10px;
+   border: none;
+}
+
+  

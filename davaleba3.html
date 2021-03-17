@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ლექცია 3, initial-scale=1.0">
+    <title>კომპანიის სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+    
+<form action="" method="GET" enctype="multipart/form-data">
+    
+    <label for=""> კომპანიის დასახელება</label>
+    <input type="text" placeholder="კომპანიის დასახელება"  ><br>
+   
+    <p>კომპანიის ტიპი</p>
+    <select name="კომპანიის ტიპი" > 
+        <option value="1"> შპს</option>
+        <option value="2">სს</option>
+        <option value="3">ინდ.მეწარმე</option> 
+    </select><br> <br>
+ 
+    <label for="address"> მისამართი</label>
+    <input type="text"placeholder="მისამართი"><br>
+    <br>
+    <label for="phone"> ტელ:ნომერი</label>
+    <input type="number" placeholder="ტელ:ნომერი" required > <br>
+  
+    <br>
+    <label for="Email"> ელ:ფოსტა</label>
+    <input type="text" placeholder="ელ:ფოსტა"><br>
+    <br>
+    <label for="date">დაარსების თარიღი</label>
+    <input type="date" name="date"><br>
+    <br>
+   <label for="image">აირჩიეთ ფაილი</label>
+   <input type="file" name="" id="image"><br>
+   <br>
+
+   <label for="image">მოღვაწეობის სფერო</label>
+
+ <select name="image" id="" multiple>
+            <option value="1">სილამაზის სფერო</option>
+            <option value="2"> მარკეტინგის სფერო</option>
+            <option value="3">ადმინისტრაციული სფერო</option>
+            <option value="4">ტურიზმის სფერო</option>
+ </select>
+    <br>
+
+  <p>ხართ თუ არა დღგ გადამხდელი?</p>  
+  
+<label for="radio"></label>
+<input type="radio" name="p" value="1" id="rad">კი
+
+
+
+<label for="rad"></label>
+<input type="radio" name="p" value="2" id="rad">არა
+
+<br>
+<br>
+                   <button type="submit" > შეყვანა </button><br>
+
+</form>
+
+
+</body>
+</html>

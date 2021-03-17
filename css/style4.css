@@ -1,0 +1,45 @@
+header
+{
+     box-sizing: border-box;
+}
+
+nav  {
+    background-color: blueviolet;
+box-shadow: 1px 1px 1px #ccc;
+}
+.navcontent{
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+  
+}
+.logo{
+    display: inline-block;
+    width: 80px;
+}
+.logimg {
+    width: 111px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.navbar{
+    
+    margin-left: auto;
+   margin-block-start: 0;
+   text-align: right;
+ margin-block-end: 0;
+    padding-left: 0;
+    
+}
+.inline-li{
+    display: inline-block;
+    padding-block:40px ;
+}
+.nav-link {
+    font-family:'alk-sanet';
+color: white;
+display: inline-block;
+}
+

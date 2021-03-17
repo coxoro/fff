@@ -1,0 +1,62 @@
+ body {
+    background-size: cover;
+    background-image: url(../img/123346.jpg);
+}
+
+
+.maincontent {
+
+    color:red ; 
+    background: rgba(153, 145, 145, 0.548);
+
+width: 70%; 
+margin: auto;
+    text-align-last: center;
+}
+
+
+@font-face 
+{font-family: alk-sanet;
+src:url(../fonts/bpg-banner-quadrosquare-caps-webfont.woff) ;
+
+ }
+/* body{
+     height: 450px;
+}  */
+
+header {
+     height: 450px;
+     background-image: url(../img/123346.jpg);
+     font-family: alk-sanet;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover ;
+     background-attachment: fixed;
+     overflow: scroll;
+     text-align-last: center;
+     margin: 10% avto;
+     }
+.card
+ {
+          width: 1050px;
+          background-color: rgba(255, 255, 255, 0.582);
+         
+     }
+     
+
+p {
+    font-size: 17px;
+    line-height: 1.2;
+text-shadow:  1px 1px 1px;color: teal;
+text-align-last: center;
+background-color: rgba(77, 77, 160, 0.274);
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+  /* .mg:hover{ 
+     transition: all 6s;
+border-radius: 50px;
+display: block;
+margin: auto;
+}  
+ .in-form + span {
+    opacity: 0;
+    transition: all .9s;
+}
+.in-form :focus{
+  
+    border-radius: 7px;
+    padding: 35px;
+}
+ 
+.bt { 
+transition: all s;
+background-color: rgba(33, 11, 158, 0.158);
+border-radius: 15px;
+outline: none;
+padding:35px 80px 35px;
+} */
+.dbt{ position: absolute;
+    background-color:rgb(177, 176, 176) ;
+    padding: 100px 50px 50px;
+    margin: auto;
+}
+.btn {
+    position: relative;
+     background-color: darkblue;
+padding: 35px 80px 35px;
+outline: none;
+border-radius: 15px ;
+}
+.btn:active {
+background-color: rgb(112, 133, 172);
+margin: auto
+} 
+
+.but:active{
+    background-color: rgb(167, 17, 25);
+}
+.bt:hover{ 
+     background-color: darkorchid;
+    border-radius: 7px;
+    padding: 15px;
+} 
+
+
+.cont{
+    width: 1100px;
+    margin: auto;
+    max-width: 100%;
+}
+.row{
+    width: 100%;
+
+}
+.cards{
+    padding: 7px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px;
+}
+.cards img{
+   
+ }
+
+
+
+
+
+.d{ margin: auto;
+    background-color: rgb(37, 136, 161);
+    display:flex;
+    padding: 150px 150px 150px ;
+   
+}
+
+.d1{
+    background-color: lightcoral;
+    padding: 25px 25px 25px;
+    display: flex;
+}
+.d2{
+
+}

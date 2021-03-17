@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'alk-sanet';
+    src: url('../fonts/alk-sanet-webfont.woff');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 1800px;
+    margin: 0;
+    /* background: linear-gradient(90deg, rgba(22,22,162,1) 0%, rgba(83,48,63,1) 52%, rgba(110,41,48,1) 77%, rgba(134,35,35,1) 100%); */
+}
+
+
+
+p {
+   font-size: 14px;
+   color: #070606;
+   line-height: 1.2;
+    
+   font-family: alk-sanet;
+   /* text-shadow: 3px 1px 1px white; */
+   text-align: center;
+   text-transform: capitalize;
+   /* letter-spacing: 7px; */
+   text-overflow: ellipsis;
+   /* white-space: nowrap; */
+   overflow: hidden;
+   }
+   
+a {
+   text-decoration: none;
+}
+
+header{
+   height: 450px;
+   background-color: yellowgreen;
+   /* background-image: url(../img/wamw.jpg); */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   overflow-y: scroll;
+   /* displey:flex; */
+   display: block;
+}
+
+.card{
+   width: 350px;
+   
+   /* border-width: 3px;
+   border-style: solid;
+   border-color: lawngreen; */
+   border: 1px solid #607d8b1f;
+   /* border-right: 9px dashed green;
+   border-bottom: 1px dotted #000; */
+   /* outline: 3px solid green; */
+   outline-offset: 0px;
+   transition: all .9s;
+     margin: auto;  
+   padding: 15px;
+   box-shadow: 3px 3px 17px #0302022b;
+   border-radius: 7px;
+   max-width: 100%;
+   min-width: 500px;
+   /* border-bottom-right-radius: 73px; */
+}
+
+img{
+    max-width: 100%;
+}
+
+video{
+   max-width: 100%;
+}
+
+iframe{
+   max-width: 100%;
+}
+
+.w-100{
+   width: 100%;
+  
+}
+
+span{
+   background-color: red;
+   width: 388px;
+
+   display: inline-block;
+}
+
+
+
+.inline-li{
+   display: inline-block;
+   padding: 25px 13px;
+}
+
+nav{
+   background-color: rgba(6, 12, 24, 0.952);
+   box-shadow: 3px 3px 3px #0f0e1329;
+}
+
+.navbar{
+   margin-left: auto;
+   margin-block-start:0;
+   text-align: right;
+   margin-block-end: 0;
+   padding-left: 0;
+}
+.nav-link{
+   font-family: 'alk-sanet';
+   color: #fff;
+}
+.logo{
+   display: inline-block;
+   width: 80px;
+}
+.logimg{
+   width: 111px;
+   height: 64px;
+   object-fit: cover;
+}
+.content{
+   width: 1140px;
+   margin: auto;
+   max-width: 100%;
+   display: flex;
+}
